@@ -1,1 +1,1 @@
-# seckill
+# This project is designed to handle "seckill" demands, it is the fundamental of a fully-implemented seckill project and is used mainly for the  purpose of study and practice, which means it still needs implementation to be used for dedicated purpose.
