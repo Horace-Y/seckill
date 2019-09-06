@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: org.seckill.dao.SeckillDaoTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.871 s <<< FAILURE! - in org.seckill.dao.SeckillDaoTest
+testQueryById(org.seckill.dao.SeckillDaoTest)  Time elapsed: 0.111 s  <<< ERROR!
+java.lang.NullPointerException
+	at org.seckill.dao.SeckillDaoTest.testQueryById(SeckillDaoTest.java:31)
+

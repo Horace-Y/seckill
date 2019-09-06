@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.seckill.dao.SuccessKilledDaoTest" time="0.668" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="12"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="D:\seckill\target\test-classes;D:\seckill\target\classes;D:\Java\maven-repository\junit\junit\4.12\junit-4.12.jar;D:\Java\maven-repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\Java\maven-repository\org\slf4j\slf4j-api\1.7.26\slf4j-api-1.7.26.jar;D:\Java\maven-repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;D:\Java\maven-repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;D:\Java\maven-repository\mysql\mysql-connector-java\8.0.16\mysql-connector-java-8.0.16.jar;D:\Java\maven-repository\com\google\protobuf\protobuf-java\3.6.1\protobuf-java-3.6.1.jar;D:\Java\maven-repository\c3p0\c3p0\0.9.1.2\c3p0-0.9.1.2.jar;D:\Java\maven-repository\org\mybatis\mybatis\3.3.0\mybatis-3.3.0.jar;D:\Java\maven-repository\org\mybatis\mybatis-spring\1.2.3\mybatis-spring-1.2.3.jar;D:\Java\maven-repository\taglibs\standard\1.1.2\standard-1.1.2.jar;D:\Java\maven-repository\jstl\jstl\1.2\jstl-1.2.jar;D:\Java\maven-repository\com\fasterxml\jackson\core\jackson-databind\2.9.9\jackson-databind-2.9.9.jar;D:\Java\maven-repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;D:\Java\maven-repository\com\fasterxml\jackson\core\jackson-core\2.9.9\jackson-core-2.9.9.jar;D:\Java\maven-repository\javax\servlet\javax.servlet-api\4.0.1\javax.servlet-api-4.0.1.jar;D:\Java\maven-repository\org\springframework\spring-core\5.1.7.RELEASE\spring-core-5.1.7.RELEASE.jar;D:\Java\maven-repository\org\springframework\spring-jcl\5.1.7.RELEASE\spring-jcl-5.1.7.RELEASE.jar;D:\Java\maven-repository\org\springframework\spring-beans\5.1.7.RELEASE\spring-beans-5.1.7.RELEASE.jar;D:\Java\maven-repository\org\springframework\spring-context\5.1.7.RELEASE\spring-context-5.1.7.RELEASE.jar;D:\Java\maven-repository\org\springframework\spring-aop\5.1.7.RELEASE\spring-aop-5.1.7.RELEASE.jar;D:\Java\maven-repository\org\springframework\spring-expression\5.1.7.RELEASE\spring-expression-5.1.7.RELEASE.jar;D:\Java\maven-repository\org\springframework\spring-jdbc\5.1.7.RELEASE\spring-jdbc-5.1.7.RELEASE.jar;D:\Java\maven-repository\org\springframework\spring-tx\5.1.7.RELEASE\spring-tx-5.1.7.RELEASE.jar;D:\Java\maven-repository\org\springframework\spring-web\5.1.7.RELEASE\spring-web-5.1.7.RELEASE.jar;D:\Java\maven-repository\org\springframework\spring-webmvc\5.1.7.RELEASE\spring-webmvc-5.1.7.RELEASE.jar;D:\Java\maven-repository\org\springframework\spring-test\5.1.7.RELEASE\spring-test-5.1.7.RELEASE.jar;D:\Java\maven-repository\redis\clients\jedis\3.1.0-m4\jedis-3.1.0-m4.jar;D:\Java\maven-repository\org\apache\commons\commons-pool2\2.6.2\commons-pool2-2.6.2.jar;D:\Java\maven-repository\com\dyuproject\protostuff\protostuff-core\1.1.3\protostuff-core-1.1.3.jar;D:\Java\maven-repository\com\dyuproject\protostuff\protostuff-api\1.1.3\protostuff-api-1.1.3.jar;D:\Java\maven-repository\com\dyuproject\protostuff\protostuff-runtime\1.1.3\protostuff-runtime-1.1.3.jar;D:\Java\maven-repository\com\dyuproject\protostuff\protostuff-collectionschema\1.1.3\protostuff-collectionschema-1.1.3.jar;D:\Java\maven-repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;D:\Java\maven-repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Toronto"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="12"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.boot.library.path" value="D:\Java\jdk-12.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\y2449\AppData\Local\Temp\surefire2194429078339620892\surefirebooter11689649035122248113.jar C:\Users\y2449\AppData\Local\Temp\surefire2194429078339620892 2019-09-04T09-28-14_063-jvmRun1 surefire8358951875086265116tmp surefire_013344510984094629703tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\seckill\target\test-classes;D:\seckill\target\classes;D:\Java\maven-repository\junit\junit\4.12\junit-4.12.jar;D:\Java\maven-repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\Java\maven-repository\org\slf4j\slf4j-api\1.7.26\slf4j-api-1.7.26.jar;D:\Java\maven-repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;D:\Java\maven-repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;D:\Java\maven-repository\mysql\mysql-connector-java\8.0.16\mysql-connector-java-8.0.16.jar;D:\Java\maven-repository\com\google\protobuf\protobuf-java\3.6.1\protobuf-java-3.6.1.jar;D:\Java\maven-repository\c3p0\c3p0\0.9.1.2\c3p0-0.9.1.2.jar;D:\Java\maven-repository\org\mybatis\mybatis\3.3.0\mybatis-3.3.0.jar;D:\Java\maven-repository\org\mybatis\mybatis-spring\1.2.3\mybatis-spring-1.2.3.jar;D:\Java\maven-repository\taglibs\standard\1.1.2\standard-1.1.2.jar;D:\Java\maven-repository\jstl\jstl\1.2\jstl-1.2.jar;D:\Java\maven-repository\com\fasterxml\jackson\core\jackson-databind\2.9.9\jackson-databind-2.9.9.jar;D:\Java\maven-repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;D:\Java\maven-repository\com\fasterxml\jackson\core\jackson-core\2.9.9\jackson-core-2.9.9.jar;D:\Java\maven-repository\javax\servlet\javax.servlet-api\4.0.1\javax.servlet-api-4.0.1.jar;D:\Java\maven-repository\org\springframework\spring-core\5.1.7.RELEASE\spring-core-5.1.7.RELEASE.jar;D:\Java\maven-repository\org\springframework\spring-jcl\5.1.7.RELEASE\spring-jcl-5.1.7.RELEASE.jar;D:\Java\maven-repository\org\springframework\spring-beans\5.1.7.RELEASE\spring-beans-5.1.7.RELEASE.jar;D:\Java\maven-repository\org\springframework\spring-context\5.1.7.RELEASE\spring-context-5.1.7.RELEASE.jar;D:\Java\maven-repository\org\springframework\spring-aop\5.1.7.RELEASE\spring-aop-5.1.7.RELEASE.jar;D:\Java\maven-repository\org\springframework\spring-expression\5.1.7.RELEASE\spring-expression-5.1.7.RELEASE.jar;D:\Java\maven-repository\org\springframework\spring-jdbc\5.1.7.RELEASE\spring-jdbc-5.1.7.RELEASE.jar;D:\Java\maven-repository\org\springframework\spring-tx\5.1.7.RELEASE\spring-tx-5.1.7.RELEASE.jar;D:\Java\maven-repository\org\springframework\spring-web\5.1.7.RELEASE\spring-web-5.1.7.RELEASE.jar;D:\Java\maven-repository\org\springframework\spring-webmvc\5.1.7.RELEASE\spring-webmvc-5.1.7.RELEASE.jar;D:\Java\maven-repository\org\springframework\spring-test\5.1.7.RELEASE\spring-test-5.1.7.RELEASE.jar;D:\Java\maven-repository\redis\clients\jedis\3.1.0-m4\jedis-3.1.0-m4.jar;D:\Java\maven-repository\org\apache\commons\commons-pool2\2.6.2\commons-pool2-2.6.2.jar;D:\Java\maven-repository\com\dyuproject\protostuff\protostuff-core\1.1.3\protostuff-core-1.1.3.jar;D:\Java\maven-repository\com\dyuproject\protostuff\protostuff-api\1.1.3\protostuff-api-1.1.3.jar;D:\Java\maven-repository\com\dyuproject\protostuff\protostuff-runtime\1.1.3\protostuff-runtime-1.1.3.jar;D:\Java\maven-repository\com\dyuproject\protostuff\protostuff-collectionschema\1.1.3\protostuff-collectionschema-1.1.3.jar;D:\Java\maven-repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;D:\Java\maven-repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\y2449"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-04-16"/>
+    <property name="java.home" value="D:\Java\jdk-12.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\seckill"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\y2449\AppData\Local\Temp\surefire2194429078339620892\surefirebooter11689649035122248113.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="12.0.1+12"/>
+    <property name="user.name" value="y2449"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="D:\Java\maven-repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\y2449\AppData\Local\Temp\"/>
+    <property name="java.version" value="12.0.1"/>
+    <property name="user.dir" value="D:\seckill"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="D:\Java\jdk-12.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.1.1\jbr\\bin;D:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.1.1\jbr\\bin\server;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Java\jdk-12.0.1\bin;D:\Java\jdk-12.0.1\jre\bin;D:\Java\apache-maven-3.6.1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Java\apache-tomcat-9.0.21\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;D:\Java\Redis\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;D:\Users\y2449\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="12.0.1+12"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="56.0"/>
+  </properties>
+  <testcase name="testQueryByIdWithSeckill" classname="org.seckill.dao.SuccessKilledDaoTest" time="0.137"/>
+  <testcase name="testInsertSuccessKilled" classname="org.seckill.dao.SuccessKilledDaoTest" time="0.123"/>
+</testsuite>
