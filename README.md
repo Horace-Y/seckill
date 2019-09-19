@@ -1,1 +1,1 @@
-# This project is designed to handle "seckill" demands, it is the fundamental of a fully-implemented seckill project. For dedicated purpose, it still needs further implementation that based on the service requirement.
+# This project is designed to handle "seckill" demands, it is the fundamental framework of a fully-implemented seckill project. For dedicated purpose, it still needs further implementation that based on the service requirement.
