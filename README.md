@@ -1,1 +1,2 @@
-# This project is designed to handle "seckill" demands, it is the fundamental framework of a fully-implemented seckill project. For dedicated purpose, it still needs further implementation that based on the service requirement.
+seckill -- "Kill in a second" 
+This project is designed to handle heavy load demands that happen in a short time, it is the fundamental framework of a fully-implemented "seckill" service. For dedicated purposes, it still needs further development that based on the specific service requirement.
